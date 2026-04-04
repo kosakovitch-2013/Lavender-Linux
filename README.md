@@ -12,7 +12,7 @@ ISO Download using GIT :
 
 # Qemu command
 qemu-system-x86_64 -cdrom lavender.iso -m 2G -vga std
-
+(doesn't mean it runs only on qemu you can use virtual box or other emulators like limbo x86)
 # License
 Under GNU 3.0 license. with free form abilities for everyone to edit the source.
 
