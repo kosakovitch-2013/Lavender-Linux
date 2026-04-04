@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "=== LavenderOS Debug Log ==="
+echo ""
+if [ -f /tmp/lavender-debug.log ]; then
+    cat /tmp/lavender-debug.log
+else
+    echo "No debug log found"
+fi

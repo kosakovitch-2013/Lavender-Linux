@@ -1,0 +1,15 @@
+#!/bin/sh
+
+# Mount filesystems
+mount -t proc proc /proc
+mount -t sysfs sysfs /sys
+mount -t devtmpfs devtmpfs /dev
+
+echo ""
+echo "========================================="
+echo "              LAVENDER"
+echo "========================================="
+echo ""
+
+# Start shell with proper tty
+exec /bin/sh

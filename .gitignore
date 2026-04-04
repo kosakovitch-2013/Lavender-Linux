@@ -1,0 +1,8 @@
+*.iso
+*.img
+*.bin
+*.cpio.gz
+vmlinuz*
+build/cache/
+build/logs/
+build/initramfs-temp/

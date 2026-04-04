@@ -1,0 +1,16 @@
+echo "OS: Lavender Linux"
+HOSTNAME=$(cat /proc/sys/kernel/hostname 2>/dev/null || echo "lavender")
+echo "Kernel: $(uname -r)"
+echo "User: $(whoami)@$(cat /proc/sys/kernel/hostname 2>/dev/null || echo 'lavender')"
+echo "Memory: $(free -h | grep Mem | awk '{print $3 "/" $2}')"
+echo "Uptime: $(uptime | cut -d',' -f1)"
+echo ""
+
+if [ -f /proc/cpuinfo ]; then
+    cpu_model=$(grep "model name" /proc/cpuinfo | head -1 | cut -d':' -f2 | sed 's/^ //')
+    cpu_cores=$(grep -c "processor" /proc/cpuinfo)
+    echo "CPU:      $cpu_model"
+    echo "Cores:    $cpu_cores"
+fi
+
+
