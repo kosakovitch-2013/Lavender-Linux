@@ -1,21 +1,21 @@
-# Lavender
+# 🌸 Lavender
 A linux distro made by a teenager (idk why i said this)
 
-# Open source
+# 👐 Open source
 You can do what ever hell you want but don't mess things up tho.
 
-# ISO release
+# 💿 ISO release
 Get the the latest ISO from [Releases](https://github.com/kosakovitch-2013/Lavender-Linux-ISO/releases) 
 
-ISO Download using GIT :
+# ⬇ ISO Download using GIT :
 ```git clone https://github.com/kosakovitch-2013/Lavender-Linux-ISO```
 
-# Qemu command
+# 🔲 Qemu command
 qemu-system-x86_64 -cdrom lavender.iso -m 2G -vga std
 
 (doesn't mean it runs only on qemu you can use virtual box or other emulators like limbo x86)
 
-# License
+# 📝 License
 Under GNU 3.0 license. with free form abilities for everyone to edit the source.
 
 # Notice ⚠
