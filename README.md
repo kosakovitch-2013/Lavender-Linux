@@ -17,4 +17,4 @@ qemu-system-x86_64 -cdrom lavender.iso -m 2G -vga std
 Under GNU 3.0 license. with free form abilities for everyone to edit the source.
 
 # Notice ⚠
-This so called distro is still under extreme development. there are some bugs and issues that needs to be fixed and DO NOT try running it on a real hardware until we release a stable release :D
+This distro is still under extreme development. there are some bugs and issues that needs to be fixed and DO NOT try running it on a real hardware until we release a stable release :D
