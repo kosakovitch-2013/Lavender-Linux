@@ -20,3 +20,5 @@ Under GNU 3.0 license. with free form abilities for everyone to edit the source.
 
 # Notice ⚠
 This distro is still under extreme development. there are some bugs and issues that needs to be fixed and DO NOT try running it on a real hardware until we release a stable release :D
+
+And no, it does it run doom. yet.. untill we add package managers so it will be possible in future
