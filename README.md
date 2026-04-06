@@ -13,6 +13,12 @@ Get the the latest ISO from [Releases](https://github.com/kosakovitch-2013/Laven
 # 🔲 Qemu command
 qemu-system-x86_64 -cdrom lavender.iso -m 2G -vga std
 
+
+or run this if you suffered alot from actually insalling it manually like arch manual install
+
+qemu-system-x86_64 -drive file=lavender.img,format=raw -m 2G -vga std
+
+
 (doesn't mean it runs only on qemu you can use virtual box or other emulators like limbo x86)
 
 # 📝 License
