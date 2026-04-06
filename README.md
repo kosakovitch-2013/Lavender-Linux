@@ -11,6 +11,10 @@ Get the the latest ISO from [Releases](https://github.com/kosakovitch-2013/Laven
 ```git clone https://github.com/kosakovitch-2013/Lavender-Linux-ISO```
 
 # 🔲 Qemu command
+
+this command runs the temporary/ram type distro
+(WARNING THINGS THAT YOU DID ON TEMPORARY TYPE DISTRO WILL NOT BE SAVED SO I WOULD RECOMEND YOU TO INSTALL PRECISTENT/PERMERANT TYPE DISTRO IF YOU PLANNING ON DOING THINGS!)
+
 qemu-system-x86_64 -cdrom lavender.iso -m 2G -vga std
 
 
