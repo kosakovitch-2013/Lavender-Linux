@@ -11,5 +11,5 @@ echo "              LAVENDER"
 echo "========================================="
 echo ""
 
-# Start shell with proper tty
+# Start shell with primitive tty
 exec /bin/sh
