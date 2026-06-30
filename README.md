@@ -1,16 +1,16 @@
-# 🌸 Lavender
+# Lavender
 A linux distro made by a teenager (idk why i said this)
 
-# 👐 Open source
+# Open source
 You can do what ever hell you want but don't mess things up tho.
 
-# 💿 ISO release
+# ISO release
 Get the the latest ISO from [Releases](https://github.com/kosakovitch-2013/Lavender-Linux-ISO/releases) 
 
-# ⬇ ISO Download using GIT :
+# ISO Download using GIT :
 ```git clone https://github.com/kosakovitch-2013/Lavender-Linux-ISO```
 
-# 🔲 Qemu command
+# Qemu command
 
 this command runs the temporary/ram type distro
 
@@ -26,15 +26,15 @@ qemu-system-x86_64 -drive file=lavender.img,format=raw -m 2G -vga std
 
 (doesn't mean it runs only on qemu you can use virtual box or other emulators like limbo x86)
 
-# 📝 License
+# License
 Under GNU 3.0 license. with free form abilities for everyone to edit the source.
 
-# Notice ⚠
+# Notice
 This distro is still under extreme development. there are some bugs and issues that needs to be fixed and DO NOT try running it on a real hardware until we release a stable release :D
 
 And no, it does it run doom. yet.. untill we add package managers so it will be possible in future
 
-# ⚠️ Troubleshooting
+# Troubleshooting
 
 If you see an `IO-APIC + timer doesn't work!` error when booting the ISO or image, you need to add the `noapic` parameter.
 
