@@ -32,17 +32,6 @@ Under GNU 3.0 license. with free form abilities for everyone to edit the source.
 # Notice
 This distro is still under extreme development. there are some bugs and issues that needs to be fixed and DO NOT try running it on a real hardware until we release a stable release :D
 
-And no, it does it run doom. yet.. untill we add package managers so it will be possible in future
-
-# Troubleshooting
-
-If you see an `IO-APIC + timer doesn't work!` error when booting the ISO or image, you need to add the `noapic` parameter.
-
-1.  When the GRUB menu appears, press `e` to edit the boot entry.
-2.  Find the line that starts with `linux /boot/vmlinuz`.
-3.  Add `noapic` to the end of that line.
-4.  Press `Ctrl+X` or `F10` to boot.
-
-For the persistent image, you can make this change permanent by editing the `grub.cfg` file inside the image.
+there's also compability in the iso, but i would recomend the time if your hardware doesn't like regular lavender, it uses nomodeset.
 
 (WARNING: NOAPIC CAN REDUCE PERFORMANCE FOR REAL HARDWARE. I DO NOT ADVISE YOU TO USE NOAPIC IF YOU WANT YOUR HARDWARE TO BE OPTIMIZED WITH MY DISTRO. ONLY USE NOAPIC FOR EMULATORS LIKE QEMU,VM WARE AND VIRTUAL BOX, ETC!)
